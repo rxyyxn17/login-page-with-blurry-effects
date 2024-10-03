@@ -1,0 +1,149 @@
+    label.logo {
+      color: darkmagenta;
+      text-transform: uppercase;
+      font-size: xx-large;
+      font-weight: bold;
+      padding-left: 50%;
+      line-height: 80px;
+      align-content: center;
+     cursor: progress;
+
+    }
+   
+
+
+    
+    body {
+      background-image: url(/Users/Apple/Downloads/leaf.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      animation-name: fadein;
+      animation-duration: 5s;
+    }
+    
+    nav{
+      background: rgba(0,0,0, .1);
+      height: 100px;
+      width: 100%;
+      
+    }
+  
+    nav ul {
+      float: right;
+      margin-right: 30px;
+      
+    
+    }
+    nav ul li {
+       display: inline-block;
+       line-height: 80px;
+       margin : 0 10px;
+       height: 50%;
+
+    }
+    nav ul li a {
+      color: white;
+      text-transform: uppercase;
+      
+    }
+    nav ul li a.active, a:hover {
+      color: darkorange;
+      overflow: hidden;
+      transition : 0.5s ease-in-out;
+      
+
+    }
+    .detel {
+      margin-left: 8%;
+      margin-top: 20%;
+      margin-bottom: 10%;
+      color: white;
+  
+    }
+    .detel h1 {
+      font-size: 30px;
+      font-weight: bold;
+      animation : slidein 7s infinite;
+
+    }
+
+    @keyframes showup
+    {
+    0% { opacity: 0;}
+    50% { opacity: 50;}
+    100% { opacity: 1;}
+    }
+    .detel p {
+      font-size: 20px;
+
+    }
+    .detel span {
+      font-weight: bold;
+      font-size: 40px;
+
+    }
+    
+    
+      .subscribe-button {
+        background-color: #ca2b2b;
+        color: whitesmoke;
+        border : none;
+        height : 30px;
+        width: 90px;
+        border-radius: 2px;
+        cursor: pointer;
+        margin-left: 8px;
+        
+            }
+
+       .subscribe-button:hover {
+              opacity: 0.8;
+            }
+       .subscribe-button:active {
+              opacity: 0.8;
+
+            }
+
+
+
+
+          .JOIN-button {
+            background-color: white;
+            color: rgba(49, 110, 189, 0.857);
+            border-color: rgba(49, 110, 189, 0.857);
+            width: 100-px;
+            height: 30px;
+            border-radius: 2px;
+            border-style: solid;
+            border-width: 1px;
+            cursor: pointer;
+            margin-left: 8px;
+            transition:background-color 1s;
+            }
+
+            .JOIN-button:hover {
+            background-color: rgb(72, 80, 222);
+            color: white;
+            }
+
+
+            .TWEET-button {
+              background-color: rgb(2, 158, 253);
+              color: white;
+              border: none;
+              width:70px;
+              height:30px;
+              border-radius: 20px;
+              cursor:pointer;
+              font-style: bold;
+              font-size: 13px;
+              font-weight: bold;
+              margin-left: 8px;
+            }
+
+            .TWEET-button:hover {
+              box-shadow: 5px 5px 5px rgba(0,0,0,0.15);
+            }
+          
+
+    
